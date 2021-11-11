@@ -20,12 +20,16 @@ html {
 
   font-size: normal;
   line-height: 1.5rem;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   font-weight: bold;
   font-size: 2.074rem;
   line-height: 3rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -47,4 +51,10 @@ ul {
 
 footer {
   margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    max-width: 720px;
+  }
 }
