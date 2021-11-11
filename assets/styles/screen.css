@@ -53,6 +53,29 @@ footer {
   margin-top: 1.5rem;
 }
 
+#skills > ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 630px) {
+  #skills > ul {
+    max-height: 6rem;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #skills > ul {
+    max-height: 4.5rem;
+  }
+}
+
+#skills > ul > li,
+.courses-taught > li {
+  list-style: square;
+}
+
 @media screen and (min-width: 800px) {
   html {
     max-width: 720px;
