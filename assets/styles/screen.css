@@ -90,3 +90,8 @@ footer {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
+
+.portfolio img {
+  position: relative;
+  width: 80vw;
+}
