@@ -86,6 +86,11 @@ footer {
   html {
     max-width: 720px;
   }
+
+  /* Let the subtitling portfolio, with its rich media content, get a bit wider */
+  #subtitling {
+    max-width: 1560px;
+  }
 }
 
 #navbar > ul {
@@ -98,7 +103,6 @@ footer {
 }
 
 .portfolio img {
-  position: relative;
   width: 100%;
 }
 
@@ -106,20 +110,16 @@ footer {
   margin-top: 1.5rem;
 }
 
-.portfolio li,
-.portfolio h2 {
-  width: 80vw;
-}
-
-@media screen and (min-width: 800px) {
-  .portfolio li,
-  .portfolio h2 {
-    width: 640px;
-  }
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 @media screen and (min-width: 600px) {
   .portfolio h2 {
+    width: 100%;
     position: absolute;
     z-index: 10;
     margin: 0;
