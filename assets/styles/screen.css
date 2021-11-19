@@ -79,6 +79,7 @@ footer {
 
 .portfolio li {
   margin-top: 1.5rem;
+  position: relative;
 }
 
 .courses-taught li,
