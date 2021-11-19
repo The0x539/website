@@ -90,6 +90,7 @@ footer {
 @media screen and (min-width: 800px) {
   html {
     max-width: 720px;
+    padding: 0 40px;
   }
 
   /* Let the subtitling portfolio, with its rich media content, get a bit wider */
