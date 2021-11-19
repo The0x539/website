@@ -99,11 +99,34 @@ footer {
 
 .portfolio img {
   position: relative;
+  width: 100%;
+}
+
+.portfolio li {
+  margin-top: 1.5rem;
+}
+
+.portfolio li,
+.portfolio h2 {
   width: 80vw;
 }
 
 @media screen and (min-width: 800px) {
-  .portfolio img {
+  .portfolio li,
+  .portfolio h2 {
     width: 640px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .portfolio h2 {
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    padding-top: 0.75rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: linear-gradient(#000000bf, #00000000);
+    box-sizing: border-box;
   }
 }
