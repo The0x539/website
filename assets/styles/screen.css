@@ -35,6 +35,23 @@ html {
   color: #8be9fd;
 }
 
+#navbar a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.44rem;
+  line-height: 1.5rem;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0 0.75rem;
+}
+
+#navbar a,
+#navbar a:visited {
+  color: #f8f8f2;
+}
+
 #subtitling a:visited {
   color: #bd93f9;
 }
@@ -121,29 +138,12 @@ footer {
   border-top: 2px solid transparent;
 }
 
-#subtitling #navbar li {
-  border-top: 2px solid #6272a4;
-}
-
 #navbar li:hover {
   background: #44475a;
 }
 
-#navbar a,
-#navbar a:visited {
-  color: #f8f8f2;
-}
-
-#navbar a {
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1.44rem;
-  line-height: 1.5rem;
-
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 1rem 0 0.75rem;
+#subtitling #navbar li {
+  border-top: 2px solid #6272a4;
 }
 
 #navbar {
