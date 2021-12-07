@@ -119,6 +119,7 @@ footer {
   text-align: center;
   background: #282a36;
   padding: 1rem 0 0.75rem;
+  border-top: 2px solid transparent;
 }
 
 #navbar li:hover {
@@ -135,6 +136,12 @@ footer {
 #navbar {
   left: 0;
   width: 100%;
+}
+
+#home #nav-home,
+#resume #nav-resume,
+#subtitling #nav-subtitling {
+  border-top: 2px solid #8be9fd;
 }
 
 @media screen and (min-width: 360px) {
