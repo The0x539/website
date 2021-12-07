@@ -121,6 +121,10 @@ footer {
   border-top: 2px solid transparent;
 }
 
+#subtitling #navbar li {
+  border-top: 2px solid #6272a4;
+}
+
 #navbar li:hover {
   background: #44475a;
 }
@@ -147,9 +151,9 @@ footer {
   width: 100%;
 }
 
-#home #nav-home,
-#resume #nav-resume,
-#subtitling #nav-subtitling {
+#home li#nav-home,
+#resume li#nav-resume,
+#subtitling li#nav-subtitling {
   border-top: 2px solid #8be9fd;
 }
 
