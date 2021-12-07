@@ -111,12 +111,16 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0 0 0.75rem 0;
+  padding-left: 0;
 }
 
 #navbar li {
   width: 100%;
   text-align: center;
+  background: #282a36;
+  padding: 0.75rem 0;
+  border: solid;
+  box-sizing: border-box;
 }
 
 #navbar {
@@ -165,6 +169,6 @@ footer {
 }
 
 body {
-  padding-bottom: 2.5rem;
+  padding-bottom: 4.5rem;
 }
 
