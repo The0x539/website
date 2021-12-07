@@ -125,11 +125,15 @@ footer {
   background: #44475a;
 }
 
+#navbar a,
+#navbar a:visited {
+  color: #f8f8f2;
+}
+
 #navbar a {
   text-decoration: none;
   font-size: 1.44rem;
   line-height: 1.5rem;
-  color: #f8f8f2;
 
   display: block;
   width: 100%;
